@@ -1,2 +1,2 @@
-Batman
+echo Batman
 
