@@ -1,11 +1,15 @@
 package main
 
-import "github.com/01-edu/z01"
+import (
+
+	"github.com/01-edu/z01"
+)
 
 func main() {
-	for i  {
-		
+	alphabet := "abcdefghijklmnopqrstuvwxyz"
+	for _, value := range alphabet {
+		z01.PrintRune(value)
 	}
-	z01.PrintRune('a')
+	
 	z01.PrintRune('\n')
 }
