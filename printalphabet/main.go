@@ -5,7 +5,13 @@ import (
 )
 
 func main() {
-	alphabet := "abcdefghijklmnopqrstuvwxyz"
+	// **** alphabet forwards ***
+	// alphabet := "abcdefghijklmnopqrstuvwxyz"
+
+	// *** alphabet backwards ***
+	// alphabet := `zyxwvutsrqponmlkjihgfedcba`
+	alphabet := "zyxwvutsrqponmlkjihgfedcba"
+	
 	for _, value := range alphabet {
 		z01.PrintRune(value)
 	}
