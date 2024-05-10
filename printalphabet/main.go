@@ -10,8 +10,9 @@ func main() {
 
 	// *** alphabet backwards ***
 	// alphabet := `zyxwvutsrqponmlkjihgfedcba`
-	alphabet := "zyxwvutsrqponmlkjihgfedcba"
-	
+
+	alphabet := "abcdefghijklmnopqrstuvwxyz"
+
 	for _, value := range alphabet {
 		z01.PrintRune(value)
 	}
