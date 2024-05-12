@@ -9,7 +9,7 @@ func QuadA(x, y int) {
 		if x >= 1 && y >= 1 {
 			print("o")  // top left corner
 		if width > 3 {
-			for width :=  width < x+1; width++ {
+			for width := 2 width < x+1; width++ {
 				print("-") // top line 
 			}
 		} 
