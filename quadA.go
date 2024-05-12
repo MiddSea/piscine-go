@@ -8,12 +8,14 @@ func QuadA(x, y int) {
 	//top line
 	if x >= 1 && y >= 1 {
 		print("o") // top left corner
-		if x > 3 {
-			for width := 2; width < x+1; width++ {
+		if x > 2 {
+			for width := 2; width < x; width++ {
 				print("-") // top line
 			}
 		}
-		print("o") // last
+		if x > 3 {
+			print("o") // last
+		}
 	}
 
 	//lines according to height
