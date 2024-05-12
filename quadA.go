@@ -19,6 +19,21 @@ func QuadA(x, y int) {
 	}
 
 	//lines according to height
+	if x > 2 {
+		for height := 3; height < y; height++ {
+			if x >= 1 && y >= 2 { // x min 1 o
+				print("|") // left column
+				if x > 2 { // x min 3 | | for spaces
+					for width := 2; width < x; width++ {
+						print(" ") // ' ' space in lines
+					}
+				}
+				if x > 1 { // x min 2: ||
+					print("|\n") // last '|' in line
+				}
+			}
+		}
+	}
 
 	//bottom line
 	if x >= 1 && y >= 2 { // x min 1 o
