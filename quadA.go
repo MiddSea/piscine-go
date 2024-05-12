@@ -25,11 +25,11 @@ func QuadA(x, y int) {
 		print("o") // bottom left corner
 		if x > 2 { // x min 3 o-o for dashes
 			for width := 2; width < x; width++ {
-				print("-") // '-' dashes bottom line
+				print("-\n") // '-' dashes bottom line
 			}
 		}
 		if x > 1 { // x min 2: oo
-			print("o") // last 'o' bottom line
+			print("o\n") // last 'o' bottom line
 		}
 	}
 
