@@ -14,7 +14,7 @@ func QuadA(x, y int) {
 			}
 		}
 		if x > 1 { // x min 2: oo
-			print("o") // last 'o' top line
+			print("o\n") // last 'o' top line
 		}
 	}
 
