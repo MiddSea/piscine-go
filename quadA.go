@@ -5,7 +5,7 @@ import "fmt"
 func QuadA(x, y int) {
 	fmt.Println("x, y QuadA")
 
-	//top line
+	// top line
 	if x >= 1 && y >= 1 { // x min 1 o
 		print("o") // top left corner
 		if x > 2 { // x min 3 o-o for dashes
@@ -18,7 +18,7 @@ func QuadA(x, y int) {
 		}
 	}
 
-	//lines according to height
+	// lines according to height
 	if y > 2 {
 		for height := 2; height < y; height++ {
 			if x >= 1 && y >= 2 { // x min 1 o
@@ -35,7 +35,7 @@ func QuadA(x, y int) {
 		}
 	}
 
-	//bottom line
+	// bottom line
 	if x >= 1 && y >= 2 { // x min 1 o
 		print("o") // bottom left corner
 		if x > 2 { // x min 3 o-o for dashes
@@ -47,5 +47,4 @@ func QuadA(x, y int) {
 			print("o\n") // last 'o' bottom line
 		}
 	}
-
 }
