@@ -1,6 +1,8 @@
 package piscine
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func QuadA(x, y int) {
 	fmt.Println("x, y QuadA")
@@ -10,7 +12,7 @@ func QuadA(x, y int) {
 		print("o") // top left corner
 		if x > 2 { // x min 3 o-o for dashes
 			for width := 2; width < x; width++ {
-				print("-") // '-' dashes top line
+				print("-") // '-' dashes top  for the top line
 			}
 		}
 		if x > 1 { // x min 2: oo
