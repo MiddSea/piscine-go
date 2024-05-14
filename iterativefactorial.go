@@ -33,7 +33,7 @@ func IterativeFactorial(nb int) int {
 	if result > 1 {
 		return result // positive result
 	} else {
-			return 0 // neg number / overflow
+		return 0 // neg number / overflow
 	}
 
 }
