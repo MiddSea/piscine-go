@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	this  is
+	// this  is
 	arg := 4
 	fmt.Println(piscine.IterativeFactorial(arg))
 }
