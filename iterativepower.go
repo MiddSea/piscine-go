@@ -1,6 +1,6 @@
 package piscine
 
-// q04 excersoze
+// q04 excercise
 func IterativePower(nb, power int) int {
 	if power < 0 {
 		return 0
