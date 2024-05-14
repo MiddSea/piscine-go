@@ -1,7 +1,7 @@
 package piscine
 
 // FirstRune does what it said on a package
-func LastRuneOrg(s string) rune {
+func NRune(s string) rune {
 	runeSlice := []rune(s)
 	lastRuneNo := len(runeSlice) - 1
 	r := runeSlice[lastRuneNo]
@@ -9,3 +9,4 @@ func LastRuneOrg(s string) rune {
 }
 
 // done by Seán Middleton 14 May
+nrune.go
