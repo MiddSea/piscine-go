@@ -14,18 +14,27 @@ func IterativeFactorial(nb int) int {
 
 	// 	return a
 	// }
-	if nb < 25 {
-		if nb == 0 {
-			return 1
-		}
-		if nb < 0 {
-			return 0
-		}
-		b := 1
-		for a := nb; a >= 1; a-- {
-			b *= a
-		}
-		return b
+
+	var result int
+	result = 1
+
+	if nb == 0 {
+		return 1
 	}
-	return 0
+	// negative number
+	if nb < 0 {
+		return 0
+	}
+	// do factorial iterative loop
+	for a := nb; a >= 1; a-- {
+		result = a * result
+	}
+	// check for overflow i.e. negative number
+	if result > 1 {
+		return result //positive result
+	} else {
+		return 0 // neg number / overflow
+	}
+
+
 }
