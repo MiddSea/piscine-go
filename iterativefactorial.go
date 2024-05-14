@@ -22,7 +22,7 @@ func IterativeFactorial(nb int) int {
 		return 1
 	}
 	// negative number
-	if nb < 0 {
+	if nb < 0 || nb > 20 {
 		return 0
 	}
 	// do factorial iterative loop
