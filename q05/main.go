@@ -12,19 +12,18 @@ func main() {
 	z01.PrintRune(piscine.FirstRune("Ola!"))
 	z01.PrintRune('\n')
 
-
 	z01.PrintRune(piscine.LastRune("Hello!"))
 	z01.PrintRune(piscine.LastRune("Salut!"))
 	z01.PrintRune(piscine.LastRune("Ola!"))
 	z01.PrintRune('\n')
 
-// And its output :
+	// And its output :
 
-// $ go run .
-// HSO
-// $
+	// $ go run .
+	// HSO
+	// $
 
-// nrune.go
+	// nrune.go
 
 	z01.PrintRune(piscine.NRune("Hello!", 3))
 	z01.PrintRune(piscine.NRune("Salut!", 2))
@@ -33,10 +32,9 @@ func main() {
 	z01.PrintRune(piscine.NRune("Ola!", 4))
 	z01.PrintRune('\n')
 
+	// And its output :
 
-// And its output :
-
-// $ go run .
-// la!
-// $
+	// $ go run .
+	// la!
+	// $
 }
