@@ -6,7 +6,6 @@ import (
 )
 
 func main() {
-	
 	fmt.Println(piscine.Fibonacci(1))
 	fmt.Println(piscine.Fibonacci(2))
 	fmt.Println(piscine.Fibonacci(3))
