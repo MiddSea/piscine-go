@@ -6,7 +6,11 @@ import (
 )
 
 func main() {
-	// this  is
-	arg := 20
-	fmt.Println(piscine.RecursiveFactorial(arg))
+	fmt.Println(piscine.RecursivePower(4, 3))
 }
+
+// And its output :
+
+// $ go run .
+// 64
+// $
