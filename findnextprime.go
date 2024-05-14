@@ -2,10 +2,9 @@ package piscine
 
 // finds the next prime
 func FindNextPrime(nb int) int {
-	for a := nb; a >= nb; a++ {
-		if IsPrime(a) {
-			return a
-		}
+	a := nb
+	for IsPrime(a) == false {
+		a++
 	}
-	return 1
+	return a
 }
