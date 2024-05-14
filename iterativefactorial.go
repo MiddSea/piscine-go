@@ -26,7 +26,8 @@ func IterativeFactorial(nb int) int {
 		return 0
 	}
 	// do factorial iterative loop
-	for a := nb; a >= 1; a-- {
+
+	for a := nb; a >= 1 && nb < 25; a-- {
 		result = a * result
 	}
 	// check for overflow i.e. negative number
