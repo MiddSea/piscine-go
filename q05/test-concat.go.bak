@@ -1,0 +1,19 @@
+package main
+
+import (
+	"fmt"
+	"piscine"
+)
+
+func main() {
+	fmt.Println(piscine.IsAlpha("Hello! ff How are you?"))
+	fmt.Println(piscine.IsAlpha("HelloAgain"))
+	fmt.Println(piscine.IsAlpha("HelloAZ[\\]^_`again"))
+	
+}
+
+// And its output :
+
+// $ go run .
+// Hello! How are you?
+// $

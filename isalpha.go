@@ -1,8 +1,8 @@
 package piscine
 
 func IsAlpha(s string) bool {
-	for i := 0; i < len(s); i++ {
-		if !(('a' >= s[i] && s[i] <= 'z') || ('A' >= s[i] && s[i] <= 'Z')) {
+	for _, r := range s {
+		if !((r >= 'A' && r <= 'Z') || (r >= 'a' && r <= 'z') || (r >= '0' && r <= '9')) {
 			return false
 		}
 	}
