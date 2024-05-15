@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	s := "Hello 78 World! AB  11 4455 /"
+	s := "Hello 78 World!f AB  11 4455 /"
 	nb := piscine.AlphaCount(s)
 	fmt.Println(nb)
 }
