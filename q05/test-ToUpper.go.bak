@@ -14,4 +14,4 @@ func main() {
 	fmt.Println(piscine.ToUpper("a true "))
 }
 
-// testing to upper
+// testing to upper done works 2024-05-15 23:24
