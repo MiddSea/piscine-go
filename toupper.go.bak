@@ -14,4 +14,4 @@ func ToUpper(s string) string {
 	return string(result)
 }
 
-// this is Blah does fkdj vdlF
+// this is the old one for ToUpper
