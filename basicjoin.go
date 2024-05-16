@@ -1,6 +1,9 @@
 package piscine
 
-func BasicJoin(s1, s2 string) string {
-	newString := s1 + s2
+func BasicJoin(elems []string) string {
+	var newString string
+	for i := 0; i < len(elems); i++ {
+		newString += elems[i]
+	}
 	return newString
 }
