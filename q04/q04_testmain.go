@@ -1,9 +1,6 @@
 package main
 
-import (
-	"piscine"
-	//	"github.com/01-edu/z01"
-)
+//	"github.com/01-edu/z01"
 
 func main() {
 	// z01.PrintRune(piscine.FirstRune("Hello!"))
@@ -31,7 +28,7 @@ func main() {
 	// z01.PrintRune(piscine.NRune("Ola!", 4))
 	// z01.PrintRune('\n')
 
-	// print(piscine.FindNextPrime(8))
+	// priXXXnt(piscine.FindNextPrime(8))
 
 	// And its output :
 
