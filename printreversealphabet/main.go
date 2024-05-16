@@ -19,3 +19,5 @@ func main() {
 
 	z01.PrintRune('\n')
 }
+
+// could reverse it by doing 
