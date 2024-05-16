@@ -1,4 +1,4 @@
-package piscine
+package q05
 
 import (
 	"fmt"
