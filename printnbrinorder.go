@@ -5,6 +5,7 @@ import "github.com/01-edu/z01"
 func PrintNbrInOrder(n int) {
 	printStr(strSort(int2str(n)))
 }
+
 func strSort(s string) string {
 	rs := []rune(s)
 	for i := 0; i < len(rs)-1; i++ {
