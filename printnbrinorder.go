@@ -25,7 +25,7 @@ func printStr(s string) {
 }
 
 func int2str(n int) (s string) {
-	for n%10 > 0 {
+	for n%10 > 0 || n > 9 {
 		s = string(rune(n%10)+'0') + s
 		n /= 10
 	}
