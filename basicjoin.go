@@ -7,4 +7,3 @@ func BasicJoin(elems []string) string {
 	}
 	return newString
 }
-printprogramname
