@@ -3,7 +3,18 @@ package piscine
 import "github.com/01-edu/z01"
 
 func PrintNbrInOrder(n int) {
-	printStr(int2str(n))
+	printStr(strSort(int2str(n)))
+}
+func strSort(s string) string {
+	rs := []rune(s)
+	for i := 0; i < len(rs)-1; i++ {
+		for j := 0; j < len(rs)-i-1; j++ {
+			if rs[j] > rs[j+1] {
+				rs[j], rs[j+1] = rs[j+1], rs[j]
+			}
+		}
+	}
+	return string(rs)
 }
 
 func printStr(s string) {
