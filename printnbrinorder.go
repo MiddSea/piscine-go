@@ -1,17 +1,21 @@
 package piscine
 
-import (
-	"github.com/01-edu/z01"
-	"github.com/01-edu/z01.PrintRune"
-)
+import "github.com/01-edu/z01"
 
 func PrintNbrInOrder(n int) {
+	printStr(int2str(n))
+}
 
-	for chRune := []rune(n) {
-		z01.PrintRune(chRune)
-		z01.PrintRune('#')
-		
+func printStr(s string) {
+	for _, v := range s {
+		z01.PrintRune(v)
 	}
-	z01.PrintRune('\n')
-	z01.PrintRune('\b')
+}
+
+func int2str(n int) (s string) {
+	for n%10 > 0 {
+		s = string(rune(n%10)+'0') + s
+		n /= 10
+	}
+	return
 }
