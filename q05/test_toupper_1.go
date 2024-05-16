@@ -1,11 +1,11 @@
-package main
+package piscine
 
 import (
 	"fmt"
 	"piscine"
 )
 
-func main() {
+func test_toupper() {
 	fmt.Println(piscine.ToUpper("abcABA d d d ... .[[87/||\\]]"))
 	fmt.Println(piscine.ToUpper("abcABA d d d ... .[[87/||\\]]"))
 	fmt.Println(piscine.ToUpper("abcABA d243fn fe  d d ... .[[87/||\\]]"))

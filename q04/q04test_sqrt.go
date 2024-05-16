@@ -1,4 +1,4 @@
-package main
+package piscine
 
 import (
 	"fmt"
@@ -6,11 +6,13 @@ import (
 )
 
 func main() {
-	fmt.Println(piscine.IterativePower(4, 3))
+	fmt.Println(piscine.Sqrt(4))
+	fmt.Println(piscine.Sqrt(3))
 }
 
 // And its output :
 
 // $ go run .
-// 64
+// 2
+// 0
 // $

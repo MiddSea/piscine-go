@@ -1,4 +1,4 @@
-package main
+package piscine
 
 import (
 	"fmt"
@@ -9,7 +9,6 @@ func main() {
 	fmt.Println(piscine.IsAlpha("Hello! ff How are you?"))
 	fmt.Println(piscine.IsAlpha("HelloAgfaikn"))
 	fmt.Println(piscine.IsAlpha("HelloAZ[\\]^_`again"))
-	
 }
 
 // And its output :

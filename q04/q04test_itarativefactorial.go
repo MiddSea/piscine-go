@@ -1,4 +1,4 @@
-package main
+package piscine
 
 import (
 	"fmt"
@@ -8,5 +8,5 @@ import (
 func main() {
 	// this  is
 	arg := 20
-	fmt.Println(piscine.RecursiveFactorial(arg))
+	fmt.Println(piscine.IterativeFactorial(arg))
 }

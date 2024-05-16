@@ -1,5 +1,4 @@
-
-package main
+package piscine
 
 import (
 	"fmt"
@@ -12,7 +11,7 @@ func main() {
 	fmt.Println(piscine.Compare("Ola!", "Ol"))
 }
 
-//And its output :
+// And its output :
 
 // $ go run .
 // 0
