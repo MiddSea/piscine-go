@@ -34,7 +34,7 @@ func main() {
 	// z01.PrintRune(piscine.NRune("Ola!", 4))
 	// z01.PrintRune('\n')
 
-	// print(piscine.FindNextPrime(8))
+	// printpiscine.FindNextPrime(8))
 
 	// And its output :
 
