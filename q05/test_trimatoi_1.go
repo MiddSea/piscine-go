@@ -1,4 +1,4 @@
-// test TrimAtoi.go
+// test_trimatio_1.go
 package q05
 
 import (
@@ -6,7 +6,7 @@ import (
 	"piscine"
 )
 
-func main() {
+func test_TrimAtoi() {
 	fmt.Println(piscine.TrimAtoi("12345"))
 	fmt.Println(piscine.TrimAtoi("str123ing45"))
 	fmt.Println(piscine.TrimAtoi("012 345"))
