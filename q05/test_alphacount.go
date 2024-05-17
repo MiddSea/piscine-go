@@ -2,6 +2,7 @@ package q05
 
 import (
 	"fmt"
+
 	"piscine"
 )
 
