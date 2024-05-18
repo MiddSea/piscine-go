@@ -10,5 +10,4 @@ func MakeRange(min, max int) []int {
 		ret[i] = min + i
 	}
 	return ret
-
 }
