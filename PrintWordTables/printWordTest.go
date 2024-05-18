@@ -1,6 +1,6 @@
 package main
 
-import piscine
+import "piscine"
 
 func main() {
 	// Example usage of PrintWordsTables
