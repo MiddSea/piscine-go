@@ -19,8 +19,8 @@ func isEven(nbr int) boolean {
 
 func main() {
 	EvenMsg := "I have an odd number of arguments"
-	OddMsg := "I have an even number of arguments" 
-	
+	OddMsg := "I have an even number of arguments"
+
 	if isEven(lengthOfArg) == 1 {
 		printStr(EvenMsg)
 	} else {
