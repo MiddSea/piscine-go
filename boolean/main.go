@@ -1,6 +1,10 @@
 package main
 
-import "github.com/01-edu/z01"
+import (
+	"os"
+
+	"github.com/01-edu/z01"
+)
 
 func printStr(s string) {
 	for _, r := range s {
@@ -9,17 +13,19 @@ func printStr(s string) {
 	z01.PrintRune('\n')
 }
 
-func isEven(nbr int) boolean {
+func isEven(nbr int) bool {
 	if even(nbr) == 1 {
-		return yes
+		return true
 	} else {
-		return no
+		return false
 	}
 }
 
 func main() {
+	len(os.Args[1:])%2 == 0 // number of args % 2 is even
 	EvenMsg := "I have an odd number of arguments"
 	OddMsg := "I have an even number of arguments"
+	
 
 	if isEven(lengthOfArg) == 1 {
 		printStr(EvenMsg)
