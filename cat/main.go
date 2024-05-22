@@ -1,4 +1,6 @@
+// cat replacement q07
 package main
+
 
 import (
     "io"
