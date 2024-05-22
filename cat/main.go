@@ -33,7 +33,7 @@ func main() {
 		}
 	} else {
 		for _, fileName := range args {
-			content, err := io.ioutil.ReadFile(fileName)
+			content, err := os.ReadFile(fileName)
 			if err != nil {
 				printError(err)
 				os.Exit(1)
