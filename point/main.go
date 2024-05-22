@@ -33,7 +33,6 @@ import (
 
 // Assuming the definition of the point struct
 
-
 type point struct {
 	x int
 	y int
