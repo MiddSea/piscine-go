@@ -1,10 +1,12 @@
 package piscine
 
+import "piscine"
+
 func Atoi(s string) int {
 	isNeg := false
 	result := 0
 	index := 0
-	len := StrLen(s)
+	len := piscine.StrLen(s) // added piscine
 
 	if index < len && (s[index] == '+' || s[index] == '-') {
 		if s[index] == '-' {
