@@ -17,28 +17,30 @@ const (
 
 func PrintStr(s string) {
 	for _, r := range s {
+		/* trunk-ignore(golangci-lint/errcheck) */
 		z01.PrintRune(r)
 	}
+	/* trunk-ignore(golangci-lint/errcheck) */
 	z01.PrintRune('\n')
 }
 
-func CloseDoor(ptrDoor Door) bool {
+func CloseDoor(ptrDoor *Door) bool {
 	PrintStr("Door Closing...")
 	ptrDoor.state = CLOSE
 	return true
 }
 
-func IsDoorOpen(doorDoor) bool {
+func IsDoorOpen(door *Door) bool {
 	PrintStr("is the Door opened ?")
 	return door.state == OPEN
 }
 
-func IsDoorClose(ptrDoor Door) bool {
+func IsDoorClose(ptrDoor *Door) bool {
 	PrintStr("is the Door closed ?")
 	return ptrDoor.state == CLOSE
 }
 
-func OpenDoor(ptrDoorDoor) bool {
+func OpenDoor(ptrDoor *Door) bool {
 	PrintStr("Door Opening...")
 	ptrDoor.state = OPEN
 	return true
