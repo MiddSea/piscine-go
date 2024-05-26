@@ -5,8 +5,9 @@ package main
 import "piscine"
 
 func main() {
-	a := []int{1, 2, 3, 4, 5, 6}
-	piscine.ForEach(piscine.PrintNbr, a)f
+	a := []int{6, 1, 2, 35, 4, 5, 6, 7}
+	piscine.ForEach(piscine.PrintNbr, a)
+	piscine.WriteHelloWorld("Now then, Now heeek")
 }
 
 // And its output :
