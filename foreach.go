@@ -24,9 +24,10 @@ func ForEach(f func(int), a []int) {
 //	a := []int{1, 2, 3, 4, 5, 6}
 //	piscine.ForEach(piscine.PrintNbr, a)
 // }
+
+// flaged at 2024-05-26 09:48
 // And its output :
 
 // $ go run .
 // 123456
 // $
-d
