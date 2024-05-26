@@ -29,3 +29,4 @@ func ForEach(f func(int), a []int) {
 // $ go run .
 // 123456
 // $
+d
