@@ -1,31 +1,31 @@
-//Instructions
-//Write a function ForEach that, for an int slice, applies a function on each element of that slice.
+// Instructions
+// Write a function ForEach that, for an int slice, applies a function on each element of that slice.
 
-//Expected function
+// Expected function
 package piscine
 
 // TO BE DONE
-// import 
+// import
 
 func ForEach(f func(int), a []int) {
-
-for _, v := range a {
-	f(v)
-
+	for _, v := range a {
+		f(v)
+	}
 }
-//Usage
-//Here is a possible program to test your function :
 
-//package main
+// Usage
+// Here is a possible program to test your function :
 
-//import "piscine"
+// package main
 
-//func main() {
+// import "piscine"
+
+// func main() {
 //	a := []int{1, 2, 3, 4, 5, 6}
 //	piscine.ForEach(piscine.PrintNbr, a)
-//}
-//And its output :
+// }
+// And its output :
 
-//$ go run .
-//123456
-//$
+// $ go run .
+// 123456
+// $
