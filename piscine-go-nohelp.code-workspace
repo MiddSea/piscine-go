@@ -4,5 +4,26 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"editor.autoClosingBrackets": "never",
+		"editor.autoClosingComments": "never",
+		"editor.autoClosingDelete": "never",
+		"editor.autoClosingOvertype": "never",
+		"editor.autoClosingQuotes": "never",
+		"editor.autoIndent": "keep",
+		"editor.autoSurround": "never",
+		"editor.acceptSuggestionOnCommitCharacter": false,
+		"editor.acceptSuggestionOnEnter": "off",
+		"editor.hover.enabled": false,
+		"editor.minimap.enabled": false,
+		"editor.parameterHints.enabled": false,
+		"editor.quickSuggestions": {
+			"other": "off"
+		},
+		"editor.quickSuggestionsDelay": 10,
+		"editor.suggest.snippetsPreventQuickSuggestions": false,
+		"editor.suggestOnTriggerCharacters": false,
+		"editor.wordBasedSuggestions": "off",
+
+	}
 }
