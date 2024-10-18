@@ -11,22 +11,24 @@ import (
 )
 
 func FirstWord(s string) (fstWord string) {
-	fstWord = "h"
+	fstWord = ""
 
 	for _, r := range s {
-		if r == ' ' {
+		if r != ' ' {
+			fstWord += string(r)
+		}
+		if r == ' ' && fstWord != "" {
 			return fstWord
 		}
-		fstWord += string(r)
 	}
-	fstWord += "XXX”
 	return fstWord
 }
+
 
 func main() {
 	fmt.Print(FirstWord("hello there"))
 	fmt.Print(FirstWord(""))
-	fmt.Print(FirstWord("hello   .........  bye"))
+	fmt.Print(FirstWord("  got yahello   .........  bye"))
 }
 
 /*
