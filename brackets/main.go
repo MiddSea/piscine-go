@@ -8,9 +8,9 @@ import (
 func isBracketed(s string) bool {
 	var stack []rune
 	brackets := map[rune]rune{
-	    '(': ')',
-	    '[': ']',
-	    '{': '}'
+		'(': ')',
+		'[': ']',
+		'{': '}',
 	}
 
 	for _, r := range s {
