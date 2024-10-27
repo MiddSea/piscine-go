@@ -7,10 +7,10 @@ import (
 )
 
 func main() {
-//	fmt.Print(piscine.FromTo(11, 29))
-//	fmt.Print(piscine.FromTo(1, 10))
-	fmt.Print(piscine.FromTo(55,11))
-//	fmt.Print(piscine.FromTo(32, 7))
+	//	fmt.Print(piscine.FromTo(11, 29))
+	//	fmt.Print(piscine.FromTo(1, 10))
+	fmt.Print(piscine.FromTo(55, 11))
+	//	fmt.Print(piscine.FromTo(32, 7))
 	fmt.Print(piscine.FromTo(100, 10))
 }
 
@@ -24,7 +24,7 @@ Prepend a 0 to any number that is less than 10.
 Add a new line \n at the end of the string.
 Expected function
 func FromTo(from int, to int) string {
-
+// fromto
 }
 Usage
 Here is a possible program to test your function:
