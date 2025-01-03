@@ -10,7 +10,7 @@ func main() {
 	testCases := []string{"++1234", "", "+1234", "-1234", "00123", "+01234"}
 	fmt.Println("Testing atoi")
 	fmt.Println("atoi(\"0234\"):",
-		piscine.Atoi("0234"), "\n")
+		piscine.Atoi("0234"), ")
 
 	for _, str := range testCases {
 		fmt.Printf("atoi(\"% 15v\"):%15v", str, piscine.Atoi(str))

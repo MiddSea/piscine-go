@@ -1,5 +1,7 @@
 package piscine
 
+import "fmt"
+
 // converts a string to an int incl. signs
 
 // has Neg Sign a beginning
@@ -31,9 +33,11 @@ func AtoiAgainAgain(str string) int {
 
 	// Convert string to int
 	for _, r :=  range strRune {
+		str := string(r)
         if r < '0' || r > '9' {
             return 0
         }
+		fmt.Print(str)
         result += result*10 + int(r - '0')
     }
 
