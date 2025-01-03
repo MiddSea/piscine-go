@@ -4,10 +4,7 @@ package piscine
 
 // has Neg Sign a beginning
 func hasNegSign(strR []rune ) bool {
-	if strR[0] == '-' {
-		return true
-	}  
-	return false
+	return strR[0] == '-'  
 }
 
 func AtoiAgainAgain(str string) int {
