@@ -1,6 +1,6 @@
 package piscine
 
-import "fmt"
+// import "fmt"
 
 // converts a string to an int incl. signs
 
@@ -32,13 +32,17 @@ func AtoiAgainAgain(str string) int {
 	//}
 
 	// Convert string to int
+print("\n again again ")
 	for _, r :=  range strRune {
 		str := string(r)
         if r < '0' || r > '9' {
             return 0
         }
-		fmt.Print(str)
+		print("<str", str, "r", r, "int(r - '0')", int(r - '0'))
         result += result*10 + int(r - '0')
+		print("result >", result)
+
+
     }
 
     if isNeg {
