@@ -12,7 +12,7 @@ func hasNegSign(strR []rune ) bool {
 func AtoiAgainAgain(str string) int {
 	strRune := []rune(str)
 	lStr := len(strRune)
-	result := 0
+	var result = 0
 	if lStr == 0 {
 		return 0
 	}
@@ -32,15 +32,17 @@ func AtoiAgainAgain(str string) int {
 	//}
 
 	// Convert string to int
-print("\n again again ")
+// print("\n again again ")
 	for _, r :=  range strRune {
-		str := string(r)
+		//str := string(r)
         if r < '0' || r > '9' {
             return 0
         }
-		print("<str", str, "r", r, "int(r - '0')", int(r - '0'))
-        result += result*10 + int(r - '0')
-		print("result >", result)
+		// print("<str", str, "r", r, "int(r - '0')", int(r - '0'))
+	    result *= 10
+		result += int(r - '0')
+		// result += result*10 + int(r) - int('0')
+		// print("result ", result, "|")
 
 
     }
